@@ -7,3 +7,5 @@ This test is designed to evaluate your practical skills in applying advanced com
 ## Full test description
 [Senior Machine Learning Engineer.pdf](https://github.com/TrueBuiltSoftware/ml-eng-test/files/14519611/Senior.Machine.Learning.Engineer.pdf)
 
+## Example cURL
+```curl -X POST -F "image=@room1.png" http://localhost:3000/detect-rooms```
