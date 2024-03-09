@@ -1,11 +1,22 @@
 # Machine Learning Engineer Test: Computer Vision and Object Detection
 
 ## Objective
-The goal of this test is to assess your skills in computer vision and object detection, with a specific focus on detecting room walls and identifying rooms in architectural blueprints or pre-construction plans.
-This test is designed to evaluate your practical skills in applying advanced computer vision techniques to a specialized domain and your ability to integrate machine learning models into a simple API server for real-world applications. Good luck!
+This test aims to assess your skills in computer vision and object detection, with a specific focus on detecting room walls and identifying rooms in architectural blueprints or pre-construction plans.
+
+This test evaluates your practical skills in applying advanced computer vision techniques to a specialized domain and your ability to integrate machine learning models into a simple API server for real-world applications.
+
+Choose one of the visual tasks, one of the text extraction tasks, and the API Server task. We encourage you to submit your tests even if you can’t complete all tasks.
+
+Good luck!
+
 
 ## Full test description
-[Senior Machine Learning Engineer.pdf](https://github.com/TrueBuiltSoftware/ml-eng-test/files/14519611/Senior.Machine.Learning.Engineer.pdf)
+[Senior Machine Learning Engineer.pdf](https://github.com/TrueBuiltSoftware/ml-eng-test/files/14545316/Senior.Machine.Learning.Engineer.1.pdf)
 
 ## Example cURL
-```curl -X POST -F "image=@room1.png" http://localhost:3000/detect-rooms```
+```
+curl -X POST -F "image=@extracted_page_xyz.png" "http://localhost:3000/run-inference?type=wall"
+curl -X POST -F "image=@extracted_page_xyz.png" "http://localhost:3000/run-inference?type=room"
+curl -X POST -F "image=@extracted_page_xyz.png" "http://localhost:3000/run-inference?type=page_info"
+curl -X POST -F "image=@extracted_page_xyz.png" "http://localhost:3000/run-inference?type=tables"
+```
