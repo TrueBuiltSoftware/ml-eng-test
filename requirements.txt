@@ -1,0 +1,4 @@
+pydantic==2.6.3
+PyMuPDF==1.23.26
+shapely==2.0.3
+
