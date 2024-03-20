@@ -13,6 +13,12 @@ Good luck!
 ## Full test description
 [Senior Machine Learning Engineer.pdf](https://github.com/TrueBuiltSoftware/ml-eng-test/files/14545316/Senior.Machine.Learning.Engineer.1.pdf)
 
+## PS
+Share your project with the following GitHub users:
+- vhaine-tb
+- omasri-tb
+- alexwine36
+
 ## Example cURL
 ```
 curl -X POST -F "image=@extracted_page_xyz.png" "http://localhost:3000/run-inference?type=wall"
