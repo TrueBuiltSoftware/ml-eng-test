@@ -16,8 +16,7 @@ Good luck!
 ## PS
 Share your project with the following GitHub users:
 - vhaine-tb
-- omasri-tb
-- alexwine36
+- gabrielreis-tb
 
 ## Example cURL
 ```
